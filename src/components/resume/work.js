@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 
 const MailOnline = {
   companyName: "MailOnline",
@@ -22,19 +23,27 @@ export default function Work() {
       </div>
       <div className="nine columns main-col">
         <Employer {...MailOnline} />
+        <br />
         <Employer {...Decibel} />
       </div>
     </div>
   );
 }
 
+
+
 function Employer(props) {
+  const tempArray = useState(false);
+  const isVisible = tempArray[0];
+  const setIsVisible = tempArray[1];
+
   return (
     <div className="row item">
       <div className="twelve columns">
         <h3>{props.companyName}</h3>
-        <p className="info">{props.jobTitle} <span>•</span> <em className="date">{props.employmentDuration}</em></p>
-        <p>
+        <p className={`info`}>{props.jobTitle} <span>•</span> <em className="date">{props.employmentDuration}</em></p>
+        <a><i className="icon-down-circle" onClick={() => setIsVisible(!isVisible)} /></a>
+        <p className={`${isVisible ? "info-text" : "info-hide"}`}>
           {props.jobDescription}
         </p>
       </div>
