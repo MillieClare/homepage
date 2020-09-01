@@ -1,7 +1,6 @@
 import React from 'react';
 export default function About() {
     return (
-      <React.Fragment>
         <section id="about">
           <div className="row">
             <div className="three columns">
@@ -10,7 +9,7 @@ export default function About() {
             <div className="nine columns main-col">
               <h2>About Me</h2>
               <p>I started tinkering with webdesign over ten years ago, but it never crossed my mind that it could be my career until I rediscovered coding in 2017. 
-                Since then, I have been working at building skills in HTML, CSS, & Javascript, whilst dabbiling in a few other bits and pieces. 
+                Now, I'm a London-based developer seeking meaningful challenges and opportunities, looking to help others a solve problems in new and exicting ways. 
             </p>
               <div className="row">
                 <div className="columns contact-details">
@@ -29,6 +28,5 @@ export default function About() {
             </div>
           </div>
         </section>
-      </React.Fragment>
     );
 }
