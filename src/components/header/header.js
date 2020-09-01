@@ -1,7 +1,6 @@
 import React from 'react';
 export default function Header() {
   return (
-    <React.Fragment>
       <header id="home">
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -12,7 +11,6 @@ export default function Header() {
             <li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li>
             <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
           </ul>
         </nav>
         <div className="row banner">
@@ -33,6 +31,5 @@ export default function Header() {
           <a className="smoothscroll" href="#about"><i className="icon-down-circle" /></a>
         </p>
       </header>
-    </React.Fragment>
   )
 }
