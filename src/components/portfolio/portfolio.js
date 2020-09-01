@@ -70,7 +70,7 @@ const ProjectTwoPopout = {
   projectImage: "images/portfolio/drum2.jpg", // can use different images if needed?
   projectTitle: "JS Drumkit",
   projectDescription: "Links the different parts of a drumkit to keyboard inputs.",
-  projectCategories: "JavaScript",
+  projectCategories: "HTML, JavaScript",
   githubLink: "https://github.com/MillieClare/JSDrumkit"
 }
 
