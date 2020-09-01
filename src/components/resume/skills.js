@@ -15,8 +15,8 @@ export default function Skills() {
             <li><span className="bar-expand html5" /><em>HTML</em></li>
             <li><span className="bar-expand css" /><em>CSS</em></li>
             <li><span className="bar-expand react" /><em>React</em></li>
-            <li><span className="bar-expand sql" /><em>SQL</em></li>
             <li><span className="bar-expand jquery" /><em>jQuery</em></li>
+            <li><span className="bar-expand sql" /><em>SQL</em></li>
           </ul>
         </div>
       </div>

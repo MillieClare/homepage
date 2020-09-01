@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -336,12 +336,12 @@ ul#nav li.current a { color: cadetblue; }
   	-webkit-animation: html5 2s ease;
 }
 .css {
-  	width: 55%;
+  	width: 50%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .react {
-  	width: 40%;
+  	width: 55%;
   	-moz-animation: react 2s ease;
   	-webkit-animation: react 2s ease;
 }
@@ -351,7 +351,7 @@ ul#nav li.current a { color: cadetblue; }
   	-webkit-animation: sql 2s ease;
 }
 .jquery {
-  	width: 50%;
+  	width: 45%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
@@ -366,11 +366,11 @@ ul#nav li.current a { color: cadetblue; }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 50%;  }
 }
 @-moz-keyframes react {
   0%   { width: 0px;  }
-  100% { width: 40%;  }
+  100% { width: 55%;  }
 }
 @-moz-keyframes sql {
   0%   { width: 0px;  }
@@ -378,7 +378,7 @@ ul#nav li.current a { color: cadetblue; }
 }
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 45%;  }
 }
 
 @-webkit-keyframes javascript {
@@ -391,11 +391,11 @@ ul#nav li.current a { color: cadetblue; }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 50%;  }
 }
 @-webkit-keyframes react {
   0%   { width: 0px;  }
-  100% { width: 40%;  }
+  100% { width: 55%;  }
 }
 @-webkit-keyframes sql {
   0%   { width: 0px;  }
@@ -403,7 +403,7 @@ ul#nav li.current a { color: cadetblue; }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 45%;  }
 }
 
 /* ------------------------------------------------------------------ */
