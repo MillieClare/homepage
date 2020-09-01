@@ -2,16 +2,16 @@ import React from 'react';
 
 const MiniMiniBot = {
   itemHref: "#modal-01",
-  imgSrc: "images/hi.png",
+  imgSrc: "images/portfolio/hi.png",
   projectName: "Miniminibot",
   languagesUsed: "JavaScript"
 }
 
 const ProjectTwo = {
   itemHref: "#modal-02",
-  imgSrc: "images/portfolio/console.jpg",
-  projectName: "Console",
-  languagesUsed: "Web Development"
+  imgSrc: "images/portfolio/drum1.jpg",
+  projectName: "JS Drumkit",
+  languagesUsed: "HTML, JavaScript"
 }
 
 const ProjectThree = {
@@ -58,7 +58,7 @@ const ProjectEight = {
 
 const MiniMiniBotPopout = {
   projectId: "modal-01",
-  projectImage: "images/hi.png", // can use different images if needed?
+  projectImage: "images/portfolio/hi.png", // can use different images if needed?
   projectTitle: "MiniMiniBot",
   projectDescription: "A chat bot written using Twitch's API to connect to chat which interacts with viewers and responds to commands.",
   projectCategories: "JavaScript",
@@ -67,11 +67,11 @@ const MiniMiniBotPopout = {
 
 const ProjectTwoPopout = {
   projectId: "modal-02",
-  projectImage: "images/portfolio/modals/m-console.jpg", // can use different images if needed?
-  projectTitle: "Project 2",
-  projectDescription: "Blablabla.",
+  projectImage: "images/portfolio/drum2.jpg", // can use different images if needed?
+  projectTitle: "JS Drumkit",
+  projectDescription: "Links the different parts of a drumkit to keyboard inputs.",
   projectCategories: "JavaScript",
-  githubLink: "github repo link"
+  githubLink: "https://github.com/MillieClare/JSDrumkit"
 }
 
 const ProjectThreePopout = {
@@ -155,7 +155,7 @@ function PortfolioPopup(props) {
     <div className="description-box">
       <h4>{props.projectTitle}</h4>
       <p>{props.projectDescription}</p>
-      <span className="categories"><i className="fa fa-tag" />{props.categories}</span>
+      <span className="categories"><i className="fa fa-tag" />{props.projectCategories}</span>
     </div>
     <div className="link-box">
       <a href={props.githubLink}>Github</a>
