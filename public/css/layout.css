@@ -65,7 +65,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: lightcyan;
    margin: 0 auto;
    width: 70%;
    text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
@@ -168,7 +168,7 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: slategray;
+   color: darkslategray;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -178,7 +178,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: cadetblue; }
+ul#nav li.current a { color: darkcyan; }
 
 
 /* ------------------------------------------------------------------ */
