@@ -9,7 +9,7 @@ export default function About() {
             <div className="nine columns main-col">
               <h2>About Me</h2>
               <p>I started tinkering with webdesign over ten years ago, but it never crossed my mind that it could be my career until I rediscovered coding in 2017. 
-                Now, I'm a London-based developer seeking meaningful challenges and opportunities, looking to help others a solve problems in new and exicting ways. 
+                Now, I'm a London-based developer seeking meaningful challenges and opportunities, looking to help others a solve problems in new and exciting ways. 
             </p>
               <div className="row">
                 <div className="columns contact-details">
