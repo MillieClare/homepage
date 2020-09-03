@@ -21,7 +21,7 @@ export default function About() {
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href="https://github.com/MillieClare/CV/blob/master/Millie_Clare_CV_2018.pdf" className="button"><i className="fa fa-download" />Download Resume</a>
+                    <a href="https://github.com/MillieClare/CV/blob/master/CV_Aug_2020.pdf" className="button"><i className="fa fa-download" />Download Resume</a>
                   </p>
                 </div>
               </div>

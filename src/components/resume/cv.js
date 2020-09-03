@@ -11,7 +11,7 @@ export default function Cv() {
             <h3>CV</h3>
             <p className="info">Last updated<span>•</span> <em className="date">August 2020</em></p>
             <p>
-              You can find my entire CV <a href="link to CV">here</a>. <br />Alternatively, read below for a summary of my employment and skills.
+              You can find my entire CV <a href="https://github.com/MillieClare/CV/blob/master/CV_Aug_2020.pdf">here</a>. <br />Alternatively, read below for a summary of my employment and skills.
       </p>
           </div>
         </div>
