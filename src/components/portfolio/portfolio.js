@@ -2,7 +2,7 @@ import React from "react";
 
 const MiniMiniBot = {
   itemHref: "#modal-01",
-  imgSrc: "images/portfolio/hi.png",
+  imgSrc: "images/portfolio/Hi.png",
   projectName: "Miniminibot",
   languagesUsed: "JavaScript"
 };
@@ -58,7 +58,7 @@ const ProjectEight = {
 
 const MiniMiniBotPopout = {
   projectId: "modal-01",
-  projectImage: "images/portfolio/hi.png",
+  projectImage: "images/portfolio/Hi.png",
   projectTitle: "MiniMiniBot",
   projectDescription:
     "A chat bot written using Twitch's API to connect to chat which interacts with viewers and responds to commands. August 2018- Present",
