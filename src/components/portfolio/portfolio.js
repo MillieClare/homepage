@@ -23,9 +23,9 @@ const ProjectThree = {
 
 const ProjectFour = {
   itemHref: "#modal-04",
-  imgSrc: "images/portfolio/FTF.png",
-  projectName: "Into The Light",
-  languagesUsed: "Photography"
+  imgSrc: "images/portfolio/wren.jpg",
+  projectName: "For The Floofs",
+  languagesUsed: "JavaScript, HTML, CSS"
 };
 
 const ProjectFive = {
@@ -78,7 +78,7 @@ const ProjectTwoPopout = {
 
 const ProjectThreePopout = {
   projectId: "modal-03",
-  projectImage: "images/portfolio/modals/example.gif",
+  projectImage: "images/portfolio/example.gif",
   projectTitle: "To-do List",
   projectDescription: "Creat tasks, mark them off and delete them. August 2020",
   projectCategories: "React, JavaScript, CSS, Material.ui",
@@ -87,7 +87,7 @@ const ProjectThreePopout = {
 
 const ProjectFourPopout = {
   projectId: "modal-04",
-  projectImage: "images/portfolio/modals/pizza.gif", // can use different images if needed?
+  projectImage: "images/portfolio/wren2.png",
   projectTitle: "For the Floofs",
   projectDescription:
     "Get random dogs from an assortment. On mobile, they can be shared through social media. April 2019",
